@@ -1,0 +1,15 @@
+// ltl-cnn-demo/main.ltl
+//
+// Toy CNN on MNIST — convolution + pooling + softmax.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-cnn-demo v0.1.0")
+    io::println("Toy CNN on MNIST — convolution + pooling + softmax.")
+    0
+}
